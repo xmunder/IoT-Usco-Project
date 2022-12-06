@@ -1,0 +1,80 @@
+﻿body{
+    background-color: white;
+}
+.title-sensors, .power-title{
+  margin: 50px 0px 0px 100px;
+}
+nav{
+    background-color: #8F141B;
+    color: white;
+    font-size: 25px;
+    height: 90px;
+}
+button{
+    background-color: #8F141B;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+.button-loggin{
+    margin-right: 10px;
+}
+.modal-header{
+    background-color: #8F141B;
+    color: white;
+}
+.description-container{
+    margin-top: 40px;
+}
+.title{
+    font-size: 30px;
+    text-align: center;
+}
+.description{
+    padding:20px 20px 20px 20px ;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+}
+.form-elements-container{
+    padding: 16px;
+    width: 250px;
+    margin: 0 auto;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    background-color: white;
+    box-shadow: 2px 2px 12px 1px rgba(140,140,140,.5);
+}
+
+.cards {
+    max-width: 800px;
+    margin: 50px auto;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.guage-press{
+    margin-inline: auto;
+}
+
+.card-power-control{
+    max-width: 500px;
+    text-align: center;
+    align-items: center;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 2px 2px 12px 1px rgba(140,140,140,.5);
+    padding: 5%;
+}
+.powerbutton{
+    margin: 0px;
+}
