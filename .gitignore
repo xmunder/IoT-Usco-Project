@@ -1,6 +1,7 @@
 node_modules/
 coverage/
 .firebase/
+.atl/
 npm-debug.log*
 playwright-report/
 test-results/
