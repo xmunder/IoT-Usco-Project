@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js --runInBand",
+    "docs:screenshots": "node tests/playwright/capture-readme-screenshots.mjs",
+    "docs:screenshots:wokwi": "node tests/playwright/capture-wokwi-screenshot.mjs",
     "test:e2e": "playwright test",
     "test:e2e:headed": "playwright test --headed"
   },
