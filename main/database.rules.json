@@ -1,6 +1,40 @@
 {
   "rules": {
-    ".read": "now < 1672203600000",  // 2022-12-28
-    ".write": "now < 1672203600000",  // 2022-12-28
+    "UsersData": {
+      "$uid": {
+        ".read": "auth != null && auth.uid === $uid",
+        ".write": "auth != null && auth.uid === $uid",
+        "temperature": {
+          ".validate": "newData.isNumber()"
+        },
+        "humidity": {
+          ".validate": "newData.isNumber()"
+        },
+        "distance": {
+          ".validate": "newData.isNumber()"
+        },
+        "co": {
+          ".validate": "newData.isNumber()"
+        },
+        "alcohol": {
+          ".validate": "newData.isNumber()"
+        },
+        "co2": {
+          ".validate": "newData.isNumber()"
+        },
+        "toggleStatus": {
+          ".validate": "newData.hasChildren(['status'])",
+          "status": {
+            ".validate": "newData.isString() && (newData.val() === 'ON' || newData.val() === 'OFF')"
+          },
+          "$other": {
+            ".validate": false
+          }
+        },
+        "$other": {
+          ".validate": false
+        }
+      }
+    }
   }
 }
