@@ -1,0 +1,14 @@
+node_modules/
+coverage/
+.firebase/
+npm-debug.log*
+playwright-report/
+test-results/
+
+# Project secrets and environment-specific files
+main/credentials.h
+main/public/config.js
+
+# OS/editor noise
+.DS_Store
+Thumbs.db

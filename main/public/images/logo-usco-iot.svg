@@ -1,0 +1,60 @@
+<svg width="512" height="512" viewBox="40 40 432 500" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">USCO IoT Dashboard Logo</title>
+  <desc id="logoDesc">Logo moderno con escudo tecnológico, nodos IoT y colores institucionales vino tinto.</desc>
+  <defs>
+    <linearGradient id="bg" x1="112" y1="56" x2="400" y2="392" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8F141B"/>
+      <stop offset="1" stop-color="#43070A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="170" y1="130" x2="344" y2="334" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F6D6D9"/>
+    </linearGradient>
+    <filter id="shadow" x="72" y="40" width="368" height="392" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="18"/>
+      <feGaussianBlur stdDeviation="20"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.121569 0 0 0 0 0.027451 0 0 0 0 0.039216 0 0 0 0.22 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_2"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_2" result="shape"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <path d="M256 58L376 103V226C376 301.6 325.1 366.1 256 384C186.9 366.1 136 301.6 136 226V103L256 58Z" fill="url(#bg)"/>
+    <path d="M256 84L353 120V226C353 288.7 313.6 341.9 256 358C198.4 341.9 159 288.7 159 226V120L256 84Z" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.18)" stroke-width="2"/>
+  </g>
+
+  <g>
+    <circle cx="256" cy="198" r="86" fill="url(#accent)" fill-opacity="0.18"/>
+    <circle cx="256" cy="198" r="58" stroke="white" stroke-width="14"/>
+    <circle cx="256" cy="198" r="14" fill="white"/>
+
+    <path d="M256 128V94" stroke="white" stroke-width="12" stroke-linecap="round"/>
+    <path d="M318 165L347 148" stroke="white" stroke-width="12" stroke-linecap="round"/>
+    <path d="M318 231L347 248" stroke="white" stroke-width="12" stroke-linecap="round"/>
+    <path d="M256 268V302" stroke="white" stroke-width="12" stroke-linecap="round"/>
+    <path d="M194 231L165 248" stroke="white" stroke-width="12" stroke-linecap="round"/>
+    <path d="M194 165L165 148" stroke="white" stroke-width="12" stroke-linecap="round"/>
+
+    <circle cx="256" cy="82" r="14" fill="#F6D6D9" stroke="white" stroke-width="8"/>
+    <circle cx="360" cy="140" r="14" fill="#F6D6D9" stroke="white" stroke-width="8"/>
+    <circle cx="360" cy="256" r="14" fill="#F6D6D9" stroke="white" stroke-width="8"/>
+    <circle cx="256" cy="314" r="14" fill="#F6D6D9" stroke="white" stroke-width="8"/>
+    <circle cx="152" cy="256" r="14" fill="#F6D6D9" stroke="white" stroke-width="8"/>
+    <circle cx="152" cy="140" r="14" fill="#F6D6D9" stroke="white" stroke-width="8"/>
+  </g>
+
+  <g>
+    <rect x="180" y="336" width="152" height="42" rx="21" fill="white" fill-opacity="0.14"/>
+    <path d="M207 357H235" stroke="white" stroke-width="10" stroke-linecap="round"/>
+    <path d="M249 357H305" stroke="white" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <rect x="70" y="404" width="372" height="96" rx="28" fill="white" fill-opacity="0.99"/>
+    <rect x="70" y="404" width="372" height="96" rx="28" stroke="#E7D4D7" stroke-width="3"/>
+    <text x="256" y="468" text-anchor="middle" dominant-baseline="middle" fill="#8F141B" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="66" font-weight="900" letter-spacing="1">IoT USCO</text>
+  </g>
+</svg>
